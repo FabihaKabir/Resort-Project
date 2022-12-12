@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Resort</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+  <header>
+    <div class="content flex_space">
+      <div class="logo"><i>BlueMoon Resort</i>
+       
+      </div>
+      <div class="navlinks">
+        <ul id="menulist">
+          <li><a href="index.html">home</a> </li>
+            <li><a href="Contact.html">contact us</a> </li>
+            <li><a href="bookform.html">book now</a> </li>
+            <li><a href="about.html">about us</a> </li>
+          
+        </ul>
+        <span class="fa fa-bars" onclick="menutoggle()"></span>
+      </div>
+    </div>
+  </header>
+
+  <style>
+    
+    main {
+      margin-bottom:0%;
+    }
+    .floating-menu {
+      font-family: sans-serif;
+      background: yellowgreen;
+      padding: 5px;;
+      width: 130px;
+      z-index: 100;
+      position: fixed;
+    }
+    .floating-menu a, 
+    .floating-menu h3 {
+      font-size: 0.9em;
+      display: block;
+      margin: 0 0.5em;
+      color: white;
+    }
+  </style>
+  <main>
+    
+    <nav class="floating-menu">
+      <h3>Menu</h3><br>
+      <li><a href="index.html"><i>Home</i></a> </li>
+            <li><a href="Contact.html"><i>Contact Us</i></a> </li>
+            <li><a href="bookform.html"><i>Book Now</i></a> </li>
+            <li><a href="about.html"><i>About Us</i></a> </li>
+    </nav>
+  </main>
+  
+  <section class="home">
+    <div class="content">
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <img src="img/cover.jpg" alt="">
+          <div class="text">
+            <h1>Spend Your Holiday</h1>
+            <p>Our resort is offering revolutionary experiences for all to enjoy.
+            </p>
+            <div class="flex">
+              <button class="primary-btn"><a href="bookform.html"><i>Book Now</i></a></button>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/cover-3.png" alt="">
+          <div class="text">
+            <h1>Spend Your Holiday</h1>
+            <p>Our resort is offering revolutionary experiences for all to enjoy.
+            </p>
+            <div class="flex">
+              <button class="primary-btn"><a href="bookform.html"><i>Book Now</i></a></button>
+              
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/cover-1.png" alt="">
+          <div class="text">
+            <h1>Spend Your Holiday</h1>
+            <p>Our resort is offering revolutionary experiences for all to enjoy.
+            </p>
+            <div class="flex">
+              <button class="primary-btn"><a href="bookform.html"><i>Book Now</i></a></button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"
+    referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous"
+    referrerpolicy="no-referrer"></script>
+  <script>
+   
+  </script>
+
+
+
+
+
+  <section class="about top">
+    <div class="container flex">
+      <div class="left">
+        <div class="heading">
+          <h1>WELCOME</h1>
+          <h2>BlueMoon Resort</h2>
+        </div>
+        <p>We are extremely excited to welcome our first guests in the coming months. Understandably, there has been much excitment and speculation globally. For everything you need to know about the resort, you are in the right location.Get a small glimpse of what BlueMoon Resort has to offer. Whether it be beautiful landscapes or otherworldy experiences, we have it all.</p>
+        <button class="primary-btn">ABOUT US</button>
+      </div>
+      <div class="right"> 
+        <img src="img/aboutus.png" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section class="counter top">
+    <div class="container grid">
+      <div class="box">
+        <h1>2050</h1>
+        <hr>
+        <span>Happy Customers</span>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="services top">
+    <div class="container">
+      <div class="heading">
+        <h1>SERVICES</h1>
+        <h2>Our Services</h2>
+      
+      </div>
+
+
+      <div class="content flex_space">
+        <div class="left grid2">
+          <div class="box">
+            <div class="text">
+              <i class="fa-solid fa-champagne-glasses"></i>
+              <h3>Delicious Food</h3>
+            </div>
+          </div>
+          <div class="box">
+            <div class="text">
+              <i class="fa-solid fa-person-biking"></i>
+              <h3>Fintness</h3>
+            </div>
+          </div>
+          <div class="box">
+            <div class="text">
+              <i class="fa-solid fa-utensils"></i>
+              <h3>Inhouse Restaurant</h3>
+            </div>
+          </div>
+          <div class="box">
+            <div class="text">
+              <i class="fa-solid fa-person-biking"></i>
+              <h3>Water Sports</h3>
+            </div>
+          </div>
+          <div class="box">
+            <div class="text">
+              <i class="fa-solid fa-person-biking"></i>
+              <h3>Cycling & VR games</h3>
+            </div>
+          </div>
+          <div class="box">
+            <div class="text">
+              <i class="fa-solid fa-spa"></i>
+              <h3>Beauty Spa</h3>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <img src="img/services.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <body>
+
+    <footer class="footer">
+       <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Resort</h4>
+            <ul>
+              <li><a href="#">about us</a></li>
+              <li><a href="#">our services</a></li>
+              <li><a href="#">Policies</a></li>
+              <li><a href="#">Plans</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>get help</h4>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Bookings</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Letterbox</a></li>
+             
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Facilities</h4>
+            <ul>
+              <li><a href="#">Luxary suits</a></li>
+              <li><a href="#">Inhouse gym</a></li>
+              <li><a href="#">Comfortable stay</a></li>
+              <li><a href="#">24/7 room services</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+       </div>
+    
+     <br>
+     <p style="text-align:center">@ 2022, All rights reserved by Fabiha Kabir</p>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+  body{
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  .container{
+    max-width: 1170px;
+    margin:auto;
+  }
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  ul{
+    list-style: none;
+  }
+  .footer{
+    background-color: #24262b;
+      padding: 70px 0;
+  }
+  .footer-col{
+     width: 25%;
+     padding: 0 15px;
+  }
+  .footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+  }
+  .footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: #7fc142;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+  }
+  .footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+  }
+  .footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  .footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+  }
+  .footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 45px;
+    background-color: rgba(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+  }
+  .footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+  }
+  
+  /*responsive*/
+  @media(max-width: 767px){
+    .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+  }
+  }
+  @media(max-width: 574px){
+    .footer-col{
+      width: 100%;
+  }
+  }
+  </style>
+
+  </footer>
+  </body>
+
+
+
+  <script src="https://kit.fontawesome.com/032d11eac3.js" crossorigin="anonymous"></script>
+</body>
+<script src="js/script.js"></script>
+</html>
